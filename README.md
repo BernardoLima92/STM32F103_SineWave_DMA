@@ -73,7 +73,8 @@ Neste exemplo vamos gerar um sinal senoidal discreto com um total de 128 pontos.
 isto é, sua amplitude máxima será representada por 255. Em termos práticos, quando a porta PWM receber o valor 255, sua saída será 3,3V e 
 quando a porta PWM receber o valor 0, sua saída será 0V.
 
-![Tabela_DDS](https://user-images.githubusercontent.com/114233216/192160707-1b334160-9eff-4b85-a328-6bb45cb4029b.png
+![TabelaDDS](https://user-images.githubusercontent.com/114233216/192162211-592cfe27-20f5-46e7-9692-e48a5a539b56.png)
+
 
 O primeiro valor da tabela (Ponto N° 0) é igual a 127. O segundo valor (Ponto N° 1) é igual a 133. E assim por diante, até o Ponto N° 127, 
 que é a última linha da tabela. Esses valores foram determinados pela fórmula:
